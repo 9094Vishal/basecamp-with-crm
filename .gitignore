@@ -1,0 +1,19 @@
+# Environment variables – NEVER commit these
+server/.env
+client/.env
+
+# SQLite database
+server/crm.db
+
+# Dependencies
+node_modules/
+server/node_modules/
+client/node_modules/
+
+# Build output
+client/dist/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.log

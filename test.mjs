@@ -1,0 +1,1 @@
+import { createBasecampClient, verifyWebhookSignature } from @37signals/basecamp; console.log(typeof createBasecampClient, typeof verifyWebhookSignature);
